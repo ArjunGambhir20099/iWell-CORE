@@ -1,0 +1,347 @@
+html,body
+{
+	width: 100%;
+	height: 100%;
+}
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Arial',sans-serif;
+	font-size: 1em;
+	background-color: white;
+	text-decoration: none;
+	color: black;	
+}
+.navbar
+{
+	width: 100%;
+	height: 75px;
+	position: sticky;
+	top:0;left:0;
+	z-index: 1;
+
+
+}
+
+.leftNav
+{
+	width: 70%;
+	height: 75px;
+	float: left;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	padding-left: 30pt;
+}
+.leftNav .logo
+{
+	font-weight: bold;
+	width:450px ;
+	font-size: 1.25em;
+}
+.links
+{
+	list-style-type: none;
+	display: flex;
+}
+.links li
+{
+	margin-right: 50pt;
+	font-size: 1em;
+}
+.rightNav
+{
+	width: 30%;
+	height: 75px;
+	float: right;
+	background-color: #6573EC;
+	display: flex;
+	align-items: center;
+	padding-left: 50pt;
+	font-size: 1em;
+}
+.login
+{
+	background-color: #6573EC;
+	color: white;
+}
+.signup
+{
+	background-color: white;
+	color: black;
+	margin-left: 50pt;
+	height: 40px;
+	width: 125px;
+	border-radius: 20pt;
+	padding: 10px;
+	outline: none;
+	border: none;
+}
+.header
+{
+	width: 100%;
+	height: 400px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+.leftHeader
+{
+	width: 70%;
+	height: 600px;
+	float: left;
+	background-color: white;
+}
+.rightHeader
+{
+	width: 30%;
+	height: 600px;
+	float: right;
+	background-color: #6573EC;
+	border-bottom-left-radius: 20pt;
+}
+
+.paraHeads
+{
+	padding-top: 200px;
+	padding-left: 100px;
+	width: 60%;
+}
+.heading
+{
+	color: #6573EC;
+	font-weight: bold;
+	font-size: 3em;
+	width: 100%;
+}
+.subheading
+{
+	margin-top: 20pt;
+	color: #6573EC;
+	font-weight: bold;
+	font-size: 1em;
+	width: 75%;
+}
+.btnheading
+{
+	margin-top: 50pt;
+	background-color:#6573EC;
+	color: white;
+	font-size: 1.5em;
+	font-weight: bold;
+	height: 85px;
+	width: 250px;
+	padding: 10px;
+	outline: none;
+	border: none;
+	border-radius: 20pt;
+	box-shadow:2px 2px 2px grey;
+}
+
+.btnheading i
+{
+	background-color:#6573EC ;
+	color: white;
+	margin-left: 15pt;
+}
+
+.runImage
+{
+	padding-top: 75px;
+	position: relative;
+	left: 0;
+	width: 90%;
+	opacity: 1;
+	background-color: #6573EC;
+}
+.features
+{
+	display: flex;
+	margin-top: 0;
+	width: 700px;
+	position: relative;
+	bottom: 0.5%;
+	right: 70%;
+	height: 100px;
+	background-color: white;
+	box-shadow: 2px 2px 2px darkgrey;
+	align-items: center;
+	text-align: center;
+}
+.features p
+{
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-right: 0pt;
+	margin-left: 90pt;
+}
+.features p span
+{
+	font-size: 0.5em;
+	font-weight: bold;
+	color: #6573EC;
+}
+.Gapp{
+	height:500px;
+}
+
+
+.landing
+{
+	width:100%;
+	height:600px;
+	background-color:white;
+	padding-top:600px;
+}
+
+.leftLanding
+{
+	width: 70%;
+	height: 600px;
+	float: left;
+	background-color: white;
+}
+.rightLanding
+{
+	width: 30%;
+	height: 600px;
+	float: right;
+	background-color: white;
+}
+
+.paraLand
+{
+	padding-top: 100px;
+	padding-left: 100px;
+	width: 85%;
+}
+.secondbtn {
+	margin-top: 50pt;
+	background-color:#c7e5ff;
+	color: #6573EC;
+	font-size: 1.5em;
+	font-weight: bold;
+	height: 65px;
+	width: 400px;
+	padding: 10px;
+	outline: none;
+	border: none;
+	border-radius: 20pt;
+	box-shadow: 2px 2px 2px grey;
+}
+	.secondbtn i {
+		margin-left: 25pt;
+		background-color: #c7e5ff;
+		color: #6573EC;
+	}
+.gapp {
+	height:100px;
+}
+
+
+.demoWatch {
+	width: 100%;
+	height: 80%;
+	background-color: #8eb5ff;
+	border-radius:20pt;
+}
+.demoImage
+{
+	padding-top: 20px;
+	position: relative;
+	left: 10%;
+	width: 75%;
+	opacity: 1;
+	background-color: #8eb5ff;
+}
+
+.product-card {
+
+	flex: 0 0 auto;
+	width: 300px;
+	height: 300px;
+	margin-right: 35px;
+	border: 1px solid #ebeaea;
+	padding: 5pt;
+	box-shadow: 3px 3px 3px grey;
+}
+.watchFeatures {
+	margin-top: 40pt;
+	margin-left: 80pt;
+	margin-right:80pt;
+	margin-bottom: 10pt;
+	padding: 0 5vw;
+	display: flex;
+	overflow-x: auto;
+	scroll-behavior: smooth;
+}
+.headingofcard
+{
+	display: flex;
+	align-items: center;
+
+}
+.headingofcard p
+{
+	color:#6473ff;
+	font-size:30px;
+	font-weight:bold;
+}
+
+.headingofcard img
+{
+	width: 15%;
+	height: 10%;
+	margin-right: 20pt;
+}
+.description {
+	margin-top:15pt;
+	padding: 10pt;
+	color: #6473ff;
+	font-size: 20px;
+	text-align:justify
+}
+.thirdbtn {
+	margin-top: 20pt;
+	background-color: #c7e5ff;
+	color: #6573EC;
+	font-size: 1.25em;
+	font-weight: bold;
+	height: 50px;
+	width: 200px;
+	padding: 10px;
+	outline: none;
+	border: none;
+	border-radius: 20pt;
+	box-shadow: 2px 2px 2px grey;
+	text-align:center;
+}
+.watchFeatures2{
+	margin-top: 40pt;
+	margin-left: 80pt;
+	margin-right:80pt;
+	margin-bottom: 10pt;
+	padding: 0 5vw;
+	display: flex;
+	overflow-x: auto;
+	scroll-behavior: smooth;
+}
+.demowatch{
+	width:10px;
+	height:10px;
+}
+
+.partners 
+{
+	margin-top: 50pt;
+	margin-left: 50pt;
+	width: 90%;
+	height: 75px;
+	display: flex;
+	align-items: bottom;
+	justify-content: space-around;
+}
+
